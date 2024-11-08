@@ -70,3 +70,14 @@ This project provides a robust approach to understanding and predicting substanc
 
 
 
+---
+
+## 🔄 Navigation
+
+
+- [Business Understanding](#business-understanding)
+- [Data Understanding](#data-understanding)
+- [Data Preparation](#data-preparation)
+- [Modeling](#modeling)
+- [Evaluation](#evaluation)
+- [Conclusion](#conclusion)
