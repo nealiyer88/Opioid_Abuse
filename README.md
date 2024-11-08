@@ -72,6 +72,64 @@ This project provides a robust approach to understanding and predicting substanc
 
 ---
 
+
+
+---
+
+### Reproducibility Guide
+
+To ensure this project is fully reproducible, please follow the steps below.
+
+
+
+#### Software and Environment Setup
+
+This project was developed using:
+- **Python** 3.8 or higher
+- **Jupyter Notebook**
+- Other Python libraries as listed in `requirements.txt`
+
+To recreate the environment and install dependencies, follow these steps:
+
+1. **Clone the repository** (replace `substance_abuse_risk.ipynb` with the actual URL):
+   ```bash
+   git clone substance_abuse_risk.ipynb
+   cd substance_abuse_risk
+e`
+
+#### Data Download
+
+To use this project, you need access to the dataset required for the analysis. Please follow these instructions:
+
+1. **Download the Data File**: If the dataset is not available publicly, contact the project owner or the data administrator to obtain access. 
+
+2. **Save the Data File in the Correct Directory**:
+   - Place the data file in the following directory structure within the repository:
+
+     ```
+     substance_abuse_risk/
+     ├── data/
+     │   └── raw_data.csv  # Replace `raw_data.csv` with the actual filename
+     ```
+
+3. **Download Data with a Command (Optional)**: 
+   - If the data is publicly available online, you can download it directly to the correct folder by using the following command in your terminal 
+
+     ```bash
+     curl -o data/raw_data.csv data_url
+     ```
+
+Make sure the data file is in the correct location before proceeding to run the analysis.
+
+4. **Run the Jupyter Notebook:**
+
+ - Open Jupyter Notebook:
+   - bash
+   - Copy code
+   - jupyter notebook
+   - Open substance_abuse_risk.ipynb and run all cells.
+
+
 ## 🔄 Navigation
 
 
@@ -81,3 +139,6 @@ This project provides a robust approach to understanding and predicting substanc
 - [Modeling](#modeling)
 - [Evaluation](#evaluation)
 - [Conclusion](#conclusion)
+- [Reproducibility Guide](#reproducibility-guide)
+
+
